@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "928305205461",
+    "project_id": "alumnilogin-174823"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928305205461:android:56ba5cf602fc8157",
+        "android_client_info": {
+          "package_name": "com.tavish.alumnilogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928305205461-r7torb8euj7v3a7lelpa0kik5rc57hjq.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "928305205461-vrbc66g6k7b37431oqs36gl3ind808ol.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tavish.alumnilogin",
+            "certificate_hash": "5e22478e5bb062015d2515727dd6777657aa596b"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5WYMzQpTumWbrLqDQetds2drH7VWCy6U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
