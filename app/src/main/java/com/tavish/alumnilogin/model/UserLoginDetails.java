@@ -2,9 +2,6 @@ package com.tavish.alumnilogin.model;
 
 import java.io.Serializable;
 
-/**
- * Created by Wasim on 04-12-2015.
- */
 public class UserLoginDetails implements Serializable{
 
     private int UserID;

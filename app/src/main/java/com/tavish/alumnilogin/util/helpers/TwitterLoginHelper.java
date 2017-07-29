@@ -16,9 +16,7 @@ import com.twitter.sdk.android.core.identity.TwitterAuthClient;
 import com.twitter.sdk.android.core.models.User;
 import com.twitter.sdk.android.core.services.AccountService;
 
-/**
- * Created by Wasim on 24-Jan-16.
- */
+
 public class TwitterLoginHelper {
 
     private TwitterAuthClient client;

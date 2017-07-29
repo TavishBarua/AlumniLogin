@@ -14,6 +14,10 @@ import android.widget.TextView;
 
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.bumptech.glide.load.resource.drawable.GlideDrawable;
+import com.bumptech.glide.request.RequestListener;
+import com.bumptech.glide.request.target.Target;
 import com.tavish.alumnilogin.AppConfig;
 import com.tavish.alumnilogin.R;
 import com.tavish.alumnilogin.model.UserLoginDetails;
@@ -117,10 +121,11 @@ public class MainActivity extends AppCompatActivity {
 				Log.d("Image", userData.getUserImageUrl());
 				Glide.with(AppConfig.getContext())
 						.load(userData.getUserImageUrl())
-						.override(100, 100)
+						.override(200, 200)
 						.fitCenter()
 						.placeholder(R.mipmap.ic_launcher)
 						.transform(new CircleTransform(AppConfig.getContext()))
+						.diskCacheStrategy(DiskCacheStrategy.ALL)
 						.into(ivUserPic);
 			}
 			else if (userData.getUserImageUri() != null)
@@ -130,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
 						.override(100, 100)
 						.fitCenter()
 						.placeholder(R.mipmap.ic_launcher)
+						.diskCacheStrategy(DiskCacheStrategy.ALL)
 						.transform(new CircleTransform(AppConfig.getContext()))
 						.into(ivUserPic);
 			}

@@ -20,9 +20,6 @@ import com.tavish.alumnilogin.model.UserLoginDetails;
 import com.tavish.alumnilogin.util.Utility;
 
 
-/**
- * Created by Wasim on 06-Dec-15.
- */
 public class GooglePlusLoginHelper implements GoogleApiClient.OnConnectionFailedListener {
 
 

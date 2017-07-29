@@ -12,9 +12,6 @@ import com.twitter.sdk.android.core.TwitterAuthConfig;
 import io.fabric.sdk.android.Fabric;
 
 
-/**
- * Created by Wasim on 23-11-2015.
- */
 
 public class AppConfig extends Application {
 
@@ -28,7 +25,7 @@ public class AppConfig extends Application {
         super.onCreate();
 
         try {
-            
+
             sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
             sharedPreferencesEditor = sharedPreferences.edit();
             setContext(getApplicationContext());

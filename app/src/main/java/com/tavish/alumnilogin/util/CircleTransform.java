@@ -11,9 +11,7 @@ import android.graphics.Paint;
 import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool;
 import com.bumptech.glide.load.resource.bitmap.BitmapTransformation;
 
-/**
- * Created by Kaira on 02-09-2015.
- */
+
 public class CircleTransform extends BitmapTransformation {
     private static final int BORDER_COLOR = Color.WHITE;
     private static final int BORDER_RADIUS = 3;

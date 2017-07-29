@@ -22,9 +22,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-/**
- * Created by Wasim on 13-Dec-15.
- */
+
 public class FacebookLoginHelper {
 
 	private UserLoginDetails userData;
